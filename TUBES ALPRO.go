@@ -180,9 +180,9 @@ func main() {
 		} else if menu == 2 {
 			// Fungsi editMahasiswa belum ada definisinya
 		} else if menu == 3 {
-			// Sama, harus meminta input nim mahasiswa yang mau dihapus
+			// meminta input nim mahasiswa yang mau dihapus
 		} else if menu == 4 {
-			// Harus minta input nim untuk tampilTranskrip
+			// meminta input nim untuk tampilTranskrip
 		} else if menu == 5 {
 			insertionSortByNIM()
 			fmt.Println("Data mahasiswa telah diurutkan berdasarkan NIM")
@@ -196,3 +196,4 @@ func main() {
 		}
 	}
 }
+
