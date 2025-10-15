@@ -184,10 +184,10 @@ func main() {
 		} else if menu == 4 {
 			// meminta input nim untuk tampilTranskrip
 		} else if menu == 5 {
-			insertionSortByNIM()
+			insertionSortByNIM() //berdasarkan NIM
 			fmt.Println("Data mahasiswa telah diurutkan berdasarkan NIM")
 		} else if menu == 6 {
-			selectionSortByNilai()
+			selectionSortByNilai() //berdasarkan Nilai
 			fmt.Println("Data mahasiswa telah diurutkan berdasarkan total nilai")
 		} else if menu == 0 {
 			return // Keluar dari program
@@ -196,4 +196,5 @@ func main() {
 		}
 	}
 }
+
 
